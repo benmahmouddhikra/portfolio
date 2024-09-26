@@ -1,0 +1,81 @@
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background-image: url('../img/ghazel.PNG');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.project-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smoothness */
+}
+
+.project-image:hover {
+    transform: scale(1.05); /* Scale image slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+
+.btn-custom {
+    display: inline-block; /* Make it behave like a block */
+    padding: 10px 20px; /* Add some padding */
+    color: #fff; /* White text */
+    background-color: #007bff; /* Bootstrap primary color */
+    text-align: center; /* Center the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #00aaff;
+}
+
+/* Card styles */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+}
+
+.custom-img {
+    width: 350px;  /* Set your desired width */
+    height: auto;  /* Maintain aspect ratio */
+}
+ 
